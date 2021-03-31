@@ -10,7 +10,7 @@
 ## Развертка 
 - Активировать виртуальную среду: ``` source /home/entrant/candy_env/bin/activate ```
 - Перейти в ``` /home/entrant/candy_app ```
-- Запустить uvicorn на нужном хосте и порту: ``` uvicorn main:app --reload --host 0.0.0.0 --port 8080 ```
+- Запустить uvicorn на нужном хосте и порте: ``` uvicorn main:app --reload --host 0.0.0.0 --port 8080 ```
 
 ## Тесты
 Используется библиотека pytest, все тесты лежат в ``` /home/entrant/candy_app/tests.py ```

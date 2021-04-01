@@ -12,6 +12,8 @@
 - Перейти в ``` /home/entrant/candy_app ```
 - Запустить uvicorn на нужном хосте и порте: ``` uvicorn main:app --reload --host 0.0.0.0 --port 8080 ```
 
+В ``` http://0.0.0.0:8080/docs ``` можно найти автоматически сгенерированную документацию API в формате Swagger.
+
 ## Тесты
 Используется библиотека pytest, все тесты лежат в ``` /home/entrant/candy_app/tests.py ```
 
